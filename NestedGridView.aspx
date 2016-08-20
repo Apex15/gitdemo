@@ -44,10 +44,7 @@
 		function divexpandcollapse(divname) {
 			var img = "img" + divname;
 			if ($("#" + img).attr("src") == "images/plus.png") {
-				$("#" + img)
-				.closest("tr")
-				.after("<tr><td></td><td colspan = '100%'>" + $("#" + divname)
-				.html() + "</td></tr>");
+				$("#" + img).closest("tr").after("<tr><td></td><td colspan = '100%'>" + $("#" + divname).html() + "</td></tr>");
 				$("#" + img).attr("src", "images/minus.png");
 			} else {
 				$("#" + img).closest("tr").next().remove();
