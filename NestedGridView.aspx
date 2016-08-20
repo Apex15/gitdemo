@@ -60,6 +60,7 @@
     <p>EDI Systems</p>
 	<form id="form1" runat="server">
 	<div>
+        <div>New Div</div>
 		<asp:GridView ID="grdViewCustomers" runat="server" AutoGenerateColumns="false" DataKeyNames="CustomerID"
 			OnRowDataBound="grdViewCustomers_OnRowDataBound" CssClass="Grid">
 			<Columns>
