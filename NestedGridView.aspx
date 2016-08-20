@@ -57,6 +57,7 @@
 	</script>
 </head>
 <body>
+    <p>EDI Systems</p>
 	<form id="form1" runat="server">
 	<div>
 		<asp:GridView ID="grdViewCustomers" runat="server" AutoGenerateColumns="false" DataKeyNames="CustomerID"
